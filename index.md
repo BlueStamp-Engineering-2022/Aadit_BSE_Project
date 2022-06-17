@@ -1,12 +1,18 @@
 ﻿# Alexa for Home Automation
-This will serve as a brief description of your project. Limit this to three sentences because it can become overly long at that point. This copy should draw the user in and make she/him want to read more.
+This project allows you to ask Alexa to get temperature and humidity data from the Particle Photon microcontroller, which gets readings from a DHT22 sensor. In addition, you can also ask Alexa to get the Particle to turn 2 different LED lights on and off. After this, you can make Alexa do many custom jobs around the household, such as locking doors, adjusting the thermostat, etc.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Aadit Noronha | Saratoga High School | Software | Sophomore
 
 ![Headstone Image](https://lh3.googleusercontent.com/pw/AM-JKLViqdJdjJvaxBJTmg5RLGRmwOTFj3Notd3NRrMl5RzB34ISUUNO6FgrW0owNzNHPq2G0PJiZr9jniK0U8lj3wyKJrbjEJOoYgMqcg0vSZlRzMUix3YqDVnJQv3tlq8BtCcCJVRwhnOPxVLrGS69qJs=s903-no?authuser=0)
-  
+
+# Starter Project
+
+My starter project is the Simon Says Game. When a certain button is pressed, the LED under it lights up, and marks it correct or wrong according to the software built into the microcontroller provided for the game. Also provided is a buzzer to release sound when a button is pressed, capacitors to regulate electric flow, batteries, on-off switches for both the power and the sound, a resistor, the board, and the buttons. The different components of the game were soldered to the board, except for the buttons which were screwed. 
+
+[![Starter Project](https://i3.ytimg.com/vi/maXB5fdWOFg/maxresdefault.jpg)](https://www.youtube.com/watch?v=maXB5fdWOFg)
+ 
 # Final Milestone
 My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint. 
 
