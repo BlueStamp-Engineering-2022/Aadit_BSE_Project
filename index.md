@@ -1,5 +1,5 @@
 ﻿# Alexa for Home Automation
-This project allows you to ask Alexa to get temperature and humidity data from the Particle Photon microcontroller, which gets readings from a DHT22 sensor. In addition, you can also ask Alexa to get the Particle to turn 2 different LED lights on and off. After this, you can make Alexa do many custom jobs around the household, such as locking doors, adjusting the thermostat, etc.
+This project allows you to ask Alexa to get temperature and humidity data from the Particle Photon microcontroller, which gets readings from a DHT22 sensor. In addition, you can also ask Alexa to get the Particle to turn 2 different LED lights on and off. After finishing these tasks, you can make Alexa do many custom jobs around the household, such as locking doors, adjusting the thermostat, etc.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
