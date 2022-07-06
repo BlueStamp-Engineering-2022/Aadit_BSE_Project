@@ -1,0 +1,100 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "particle",
+            "intents": [
+                {
+                    "name": "ParticleIntent",
+                    "slots": [
+                        {
+                            "name": "sensor",
+                            "type": "sensor_type"
+                        },
+                        {
+                            "name": "light",
+                            "type": "light_type"
+                        },
+                        {
+                            "name": "onoff",
+                            "type": "onoff_type"
+                        }
+                    ],
+                    "samples": [
+                        "turn the {light} light {onoff}",
+                        "tell me the {sensor}",
+                        "what is the {sensor}",
+                        "what is the {sensor} here",
+                        "turn {onoff} the {light} light"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "sensor_type",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "temperature"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "humidity"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "light_type",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "red"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "green"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "onoff_type",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "on"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "off"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
