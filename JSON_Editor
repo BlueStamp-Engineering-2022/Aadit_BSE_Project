@@ -20,11 +20,21 @@
                         }
                     ],
                     "samples": [
+                        "turn {onoff} {light} light",
+                        "turn {light} light {onoff}",
                         "turn the {light} light {onoff}",
                         "tell me the {sensor}",
                         "what is the {sensor}",
                         "what is the {sensor} here",
-                        "turn {onoff} the {light} light"
+                        "to turn {onoff} the {light} light",
+                        "to turn {onoff} {light} light",
+                        "to turn {light} light {onoff}",
+                        "to turn the {light} light {onoff}",
+                        "to tell me the {sensor}",
+                        "what is the {sensor}",
+                        "what the {sensor} is",
+                        "what is the {sensor} here",
+                        "to turn {onoff} the {light} light"
                     ]
                 },
                 {
