@@ -47,7 +47,7 @@ Particle.prototype.intentHandlers = {
 	
 		var sensor = sensorSlot ? intent.slots.sensor.value : "";
 		var light = lightSlot ? intent.slots.light.value : "";
-		var onoff = onoffSlot ? intent.slots.onoff.value : "off";
+		var onoff = onoffSlot ? intent.slots.onoff.value : "";
 		
 		var speakText = "";
 		
@@ -60,8 +60,8 @@ Particle.prototype.intentHandlers = {
 		var pinvalue = "";
 		
 		// Replace these with action device id and access token
-		var deviceid = "20001c000d47313037363132";
-		var accessToken = "36f03f2a362f59eabdb91c2d26f63df15e343cee";
+		var deviceid = "3d0028000b47313037363132";
+		var accessToken = "afcee6587afe08d61096889b18b6b2df0b1c53b3";
 		
 		var sparkHst = "api.particle.io";
 		
