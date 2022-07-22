@@ -1,5 +1,5 @@
 ﻿# Alexa for Home Automation
-This project allows you to ask Alexa to get temperature and humidity data from the Particle Photon microcontroller, which gets readings from a DHT22 sensor. In addition, you can also ask Alexa to get the Particle to turn 2 different LED lights on and off. After finishing these tasks, you can make Alexa do many custom jobs around the household, such as locking doors, adjusting the thermostat, etc.
+This project allows you to ask Alexa to get temperature and humidity data from the Particle Photon microcontroller, which gets readings from a DHT11 sensor. In addition, you can also ask Alexa to get the Particle to turn 2 different LED lights on and off. After finishing these tasks, you can make Alexa do many custom jobs around the household, such as locking doors, adjusting the thermostat, etc.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -8,7 +8,7 @@ This project allows you to ask Alexa to get temperature and humidity data from t
 ![Headstone Image](https://lh3.googleusercontent.com/pw/AM-JKLViqdJdjJvaxBJTmg5RLGRmwOTFj3Notd3NRrMl5RzB34ISUUNO6FgrW0owNzNHPq2G0PJiZr9jniK0U8lj3wyKJrbjEJOoYgMqcg0vSZlRzMUix3YqDVnJQv3tlq8BtCcCJVRwhnOPxVLrGS69qJs=s903-no?authuser=0)
 
 # Second Milestone
-My second milestone integrates Alexa into my particle design. Now the alexa can turn on the LEDs on and off from voice commands, and it can also request temperature from the DHT11 sensor. In addition, I created a google spreadsheet for the temperature and humidity data, so that the data is readily available with a timestamp to show when the reading happened, as well as a graph to show how the temperature in your household or outside will change over time. I also created an animation and a website to show how the entire project works
+My second milestone integrates Alexa into my particle design. Now the Alexa can turn on the LEDs on and off from voice commands, and it can also request temperature from the DHT11 sensor. In addition, I created a google spreadsheet for the temperature and humidity data, so that the data is readily available with a timestamp to show when the reading happened, as well as a graph to show how the temperature in your household or outside will change over time. I also created an animation and a website to show how the entire project works.
 
 [![Second Milestone](https://i3.ytimg.com/vi/OTaGKEeXQJU/maxresdefault.jpg)](https://www.youtube.com/watch?v=OTaGKEeXQJU)
 # First Milestone
