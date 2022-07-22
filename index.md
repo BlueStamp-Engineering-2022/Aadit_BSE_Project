@@ -6,20 +6,15 @@ This project allows you to ask Alexa to get temperature and humidity data from t
 | Aadit Noronha | Saratoga High School | Software | Sophomore
 
 ![Headstone Image](https://lh3.googleusercontent.com/pw/AM-JKLViqdJdjJvaxBJTmg5RLGRmwOTFj3Notd3NRrMl5RzB34ISUUNO6FgrW0owNzNHPq2G0PJiZr9jniK0U8lj3wyKJrbjEJOoYgMqcg0vSZlRzMUix3YqDVnJQv3tlq8BtCcCJVRwhnOPxVLrGS69qJs=s903-no?authuser=0)
- 
-# Final Milestone
-My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint. 
-
-[![Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612573869/video_to_markdown/images/youtube--F7M7imOVGug-c05b58ac6eb4c4700831b2b3070cd403.jpg )](https://www.youtube.com/watch?v=F7M7imOVGug&feature=emb_logo "Final Milestone"){:target="_blank" rel="noopener"}
 
 # Second Milestone
-My final milestone is the increased reliability and accuracy of my robot. I ameliorated the sagging and fixed the reliability of the finger. As discussed in my second milestone, the arm sags because of weight. I put in a block of wood at the base to hold up the upper arm; this has reverberating positive effects throughout the arm. I also realized that the forearm was getting disconnected from the elbow servo’s horn because of the weight stress on the joint. Now, I make sure to constantly tighten the screws at that joint.
+My second milestone integrates Alexa into my particle design. Now the alexa can turn on the LEDs on and off from voice commands, and it can also request temperature from the DHT11 sensor. In addition, I created a google spreadsheet for the temperature and humidity data, so that the data is readily available with a timestamp to show when the reading happened, as well as a graph to show how the temperature in your household or outside will change over time. I also created an animation and a website to show how the entire project works
 
-[![Third Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1612574014/video_to_markdown/images/youtube--y3VAmNlER5Y-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=y3VAmNlER5Y&feature=emb_logo "Second Milestone"){:target="_blank" rel="noopener"}
+[![Second Milestone](https://i3.ytimg.com/vi/OTaGKEeXQJU/maxresdefault.jpg)](https://www.youtube.com/watch?v=OTaGKEeXQJU)
 # First Milestone
   
 
-My first milestone was setting up an Amazon's Alexa to influence a device called Particle to make it turn an LED on and off, as well as reading humidity and temperature off a DHT22 sensor. This all happens through voice commands from Alexa, which goes through a learnt Alexa skill to take in different inputs from the user, find out what they intend to mean by corresponding different utterances to the intents of the user, and sending it through a AWS Lambda function which does all the back-end computing to eliminate the need of a server. 
+My first milestone was setting up a device Particle to make it turn an LED on and off, as well as reading humidity and temperature off a DHT11 sensor. This all will happen through voice commands from Alexa, so that is my second milestone goal. The DHT11 sensor gives an accurate temperature and humidity reading, and it publishes the data to the particle console.
 
 [![First Milestone](https://img.youtube.com/vi/MNCzu0k8nZo/sddefault.jpg)](https://www.youtube.com/watch?v=MNCzu0k8nZo)
 
